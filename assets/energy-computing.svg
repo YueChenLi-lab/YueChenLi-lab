@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">YueChenLi — Energy meets computing</title>
+  <desc id="desc">An isometric energy and computing landscape: wind power and solar panels connect through a luminous microchip to servers on a dark blue circuit grid.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101c32"/><stop offset="1" stop-color="#060d1b"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#166b77" stop-opacity=".3"/><stop offset="1" stop-color="#166b77" stop-opacity="0"/></radialGradient>
+    <linearGradient id="top" x2="1" y2="1"><stop stop-color="#234957"/><stop offset="1" stop-color="#122a43"/></linearGradient>
+    <linearGradient id="chip" x2="1" y2="1"><stop stop-color="#79f8cf"/><stop offset="1" stop-color="#39bcd0"/></linearGradient>
+    <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#246bc0"/><stop offset="1" stop-color="#15315d"/></linearGradient>
+    <linearGradient id="server" x2="1" y2="0"><stop stop-color="#233d61"/><stop offset="1" stop-color="#142640"/></linearGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#a4b9d3" opacity=".13"/></pattern>
+    <g id="tile">
+      <path d="M0 0 144-72 288 0 144 72Z" fill="url(#top)" stroke="#36526c"/>
+      <path d="m0 0 144 72v22L0 22Z" fill="#122039" stroke="#263e58"/>
+      <path d="m144 72 144-72v22L144 94Z" fill="#0b172a" stroke="#263e58"/>
+    </g>
+    <g id="rack">
+      <path d="m0 0 60-30 60 30-60 30Z" fill="#3c5778" stroke="#6883a0"/>
+      <path d="m0 0 60 30v145L0 145Z" fill="url(#server)" stroke="#456480"/>
+      <path d="m60 30 60-30v145l-60 30Z" fill="#102038" stroke="#34516c"/>
+      <g fill="#0a162a" stroke="#3c5b7a">
+        <path d="m8 18 44 22v26L8 44Z"/><path d="m8 56 44 22v26L8 82Z"/><path d="m8 94 44 22v26L8 120Z"/>
+      </g>
+      <g stroke="#72f4cf" stroke-width="3" stroke-linecap="round"><path d="m16 31 8 4"/><path d="m16 69 8 4"/><path d="m16 107 8 4"/></g>
+      <g stroke="#456480" stroke-width="2"><path d="m76 42 30-15m-30 27 30-15m-30 27 30-15m-30 27 30-15m-30 27 30-15m-30 27 30-15m-30 27 30-15m-30 27 30-15"/></g>
+    </g>
+    <g id="solar">
+      <path d="m30 44v36m82-77v36" stroke="#8ca7c2" stroke-width="6"/>
+      <path d="m0 22 90-45 48 28-90 45Z" fill="url(#panel)" stroke="#71c5ed" stroke-width="2"/>
+      <g fill="none" stroke="#74c3e8" stroke-opacity=".65"><path d="m15 15 48 28m-33-36 48 28M45 0l48 28M60-8l48 28M75-15l48 28M16 31l90-45M32 40l90-45"/></g>
+      <path d="m0 22 48 28 90-45" fill="none" stroke="#a1e4ff" stroke-width="2"/>
+    </g>
+    <g id="turbine" stroke-linejoin="round">
+      <path d="m-8 158 8-158 8 158-8 5Z" fill="#b5d0dd" stroke="#e2f1f2"/>
+      <path d="m0-4-5-71 8-12 5 81Z" fill="#d8f1ef"/>
+      <path d="m2 0 62 34 4 14L-3 7Z" fill="#9fc9d3"/>
+      <path d="m-3 1-48 40-16-1L-7-6Z" fill="#e5f8f5"/>
+      <circle r="7" fill="#72f4cf" stroke="#effffb" stroke-width="2"/>
+    </g>
+  </defs>
+  <rect width="1440" height="760" rx="28" fill="url(#bg)"/>
+  <rect width="1440" height="760" rx="28" fill="url(#dots)"/>
+  <ellipse cx="922" cy="450" rx="570" ry="315" fill="url(#halo)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <path d="M64 57h24" stroke="#7bf3cb" stroke-width="4"/>
+    <text x="102" y="63" font-size="15" letter-spacing="4" fill="#a6bcd2">YUECHENLI / EXPLORATION LOG</text>
+    <text x="64" y="157" font-size="76" font-weight="700" letter-spacing="-3" fill="#f1f6fc">ENERGY MEETS</text>
+    <text x="64" y="241" font-size="76" font-weight="700" letter-spacing="-3" fill="#80f2cd">COMPUTING.</text>
+    <text x="68" y="290" font-size="19" fill="#acc0d6" letter-spacing="1">Power systems. Intelligent agents. Systems thinking.</text>
+    <g transform="translate(68 331)">
+      <rect width="128" height="33" rx="16" fill="#143735" stroke="#337064"/><text x="64" y="22" text-anchor="middle" font-size="12" letter-spacing="2" fill="#9cf5d8">ENERGY</text>
+      <rect x="141" width="156" height="33" rx="16" fill="#182d48" stroke="#38577c"/><text x="219" y="22" text-anchor="middle" font-size="12" letter-spacing="2" fill="#a9d4ff">COMPUTING</text>
+      <rect x="310" width="88" height="33" rx="16" fill="#302b43" stroke="#655377"/><text x="354" y="22" text-anchor="middle" font-size="12" letter-spacing="2" fill="#dac3f5">AI</text>
+    </g>
+    <!-- Floating platforms and their connections use a shared isometric projection. -->
+    <ellipse cx="926" cy="602" rx="440" ry="93" fill="#020812" opacity=".65"/>
+    <g fill="none" stroke="#27445c" stroke-width="1">
+      <path d="m433 548 500-250 500 250-500 250Z"/><path d="m505 584 500-250m-428 286 500-250m-428 286 500-250m-428 286 500-250m-428 286 500-250"/>
+      <path d="m505 512 500 250M577 476l500 250M649 440l500 250M721 404l500 250M793 368l500 250"/>
+    </g>
+    <g fill="none" stroke="#56dfc3" stroke-width="3" stroke-linejoin="round">
+      <path d="m665 511 101 51 111-55"/><path d="m944 480 111-55 130 65"/><path d="m930 559 105 53 112-56"/>
+    </g>
+    <g fill="#a2ffe2"><circle cx="766" cy="562" r="5"/><circle cx="1055" cy="425" r="5"/><circle cx="1035" cy="612" r="5"/></g>
+    <use href="#tile" x="508" y="487"/>
+    <use href="#tile" x="796" y="527"/>
+    <use href="#tile" x="1084" y="487"/>
+    <!-- Renewable generation -->
+    <use href="#turbine" transform="translate(614 301)"/>
+    <use href="#turbine" transform="translate(714 357) scale(.72)"/>
+    <use href="#solar" transform="translate(532 485)"/>
+    <use href="#solar" transform="translate(634 532) scale(.8)"/>
+    <!-- Raised processor -->
+    <g stroke="#63cdbb" stroke-width="4">
+      <path d="m829 479-25-13m44 3-25-13m44 4-25-13m44 3-25-13m44 4-25-13M840 540l-25 13m44-4-25 13m44-3-25 13m44-4-25 13m44-3-25 13M958 437l25-13m-6 23 25-13m-6 23 25-13m-6 22 25-13M997 525l25 13m-44-3 25 13m-44-4 25 13m-44-3 25 13"/>
+    </g>
+    <path d="m826 479 115-58 115 58v34l-115 58-115-58Z" fill="#153d41" stroke="#4dbaab"/>
+    <path d="m826 479 115-58 115 58-115 58Z" fill="url(#chip)" stroke="#b6ffe5" stroke-width="2"/>
+    <path d="m854 478 87-43 87 43-87 44Z" fill="#10383e" stroke="#d0ffed"/>
+    <g transform="translate(941 479) matrix(1 .5 -1 .5 0 0)" fill="#adffe2" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+      <text y="-2" font-size="21" font-weight="700">AI</text><text y="18" font-size="11" letter-spacing="2">SYSTEMS</text>
+    </g>
+    <!-- Compute cluster -->
+    <use href="#rack" x="1185" y="287"/>
+    <use href="#rack" x="1117" y="329"/>
+    <use href="#rack" x="1216" y="378"/>
+    <!-- Data bridge -->
+    <path d="m1020 380 40-20 40 20-40 20Z" fill="#29374f" stroke="#9b91c7"/>
+    <path d="m1020 380v26l40 20 40-20v-26l-40 20Z" fill="#302b48" stroke="#9b91c7"/>
+    <path d="m1043 378 12 6 25-13" fill="none" stroke="#d9c5ff" stroke-width="3"/>
+    <g font-size="12" font-weight="700" letter-spacing="3">
+      <text x="565" y="626" fill="#8debd0">01 / GENERATE</text>
+      <text x="850" y="662" fill="#8debd0">02 / REASON</text>
+      <text x="1150" y="626" fill="#a6cefa">03 / COMPUTE</text>
+    </g>
+    <path d="M64 692h1312" stroke="#27374c"/>
+    <text x="64" y="726" fill="#91a9c1" font-size="12" letter-spacing="2">SHANGHAI UNIVERSITY OF ELECTRIC POWER</text>
+    <text x="1376" y="726" text-anchor="end" fill="#91a9c1" font-size="12" letter-spacing="2">UNDERSTAND · BUILD · TEST</text>
+  </g>
+</svg>
