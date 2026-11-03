@@ -19,7 +19,7 @@
 
 I'm a **2024-cohort undergraduate student majoring in Data Science and Big Data Technology at Shanghai University of Electric Power (SUEP), China.**
 
-I build and study software at the intersection of **AI agents, energy and electric-power applications, and computer systems**. My projects range from constrained energy planning and domain-aware robot interactions to Linux scheduling experiments, scientific retrieval, and developer tools.
+I build and study software at the intersection of **AI agents, energy and electric-power applications, and computer systems**. My projects range from constrained energy planning and domain-aware robot interactions to Linux scheduling experiments and developer tools. I also study open-source frameworks through clearly attributed forks.
 
 What connects them is a recurring question: **How do we turn an intelligent idea into a system that can be understood, tested, constrained, and trusted?**
 
@@ -44,7 +44,6 @@ These are connected interests, not claims that every area is equally mature or p
 | :--- | :--- |
 | ⚡ **[Regional Energy Agent](https://github.com/YueChenLi-lab/regional_energy_agent)** | A constrained electricity–heat planning prototype combining deterministic optimization, an agent-facing workflow, independent numerical checks, counterfactual feasibility repair, and minimax-regret scenario comparison. The repository currently documents **v0.5.0**, including a decision workbench and validation evidence. |
 | 🤖 **[Power Inspection Robot](https://github.com/YueChenLi-lab/power-inspection-robot)** | My software focus in a team robotics project: power-domain speech/semantic understanding, evidence-preserving structured mission drafts, safety validation, and a **single-machine Mock InspectionOS** for mission lifecycle, scheduling, approval, and recovery. The public prototype is **not yet integrated with real equipment**. |
-| 📚 **[arXiv Fetcher](https://github.com/YueChenLi-lab/arxiv_fetcher)** | An AI-paper retrieval system using the arXiv API, staged ingestion, ChromaDB, embeddings, and semantic search, with a separate data-building workflow and API layer. |
 | 🧪 **[Linux Process Management Extensions](https://github.com/YueChenLi-lab/linux-process-management-extensions)** | Reproducible C/Python experiments: PCB queue invariants, FCFS/SJF/RR comparisons on common workloads, and real Linux nice-priority measurements with controlled CPU contention and preserved raw evidence. |
 | 🎨 **[RenderKit 2D](https://github.com/YueChenLi-lab/RenderKit-2D-AI-Native-Visual-Rendering-Framework)** | An early-stage TypeScript framework for turning structured content into Web and editable PPTX outputs, with a shared semantic representation, layout constraints, auditing, and deterministic repair. |
 | 🌱 **[Carbon Platform](https://github.com/YueChenLi-lab/carbon-platform)** | A construction-waste and carbon-data application extended with a modular LangGraph/DeepSeek multi-agent **prototype**. The repository documents remaining end-to-end integration limits. |
@@ -54,11 +53,18 @@ These are connected interests, not claims that every area is equally mature or p
 - **[Linux Thread Mechanism Lab](https://github.com/YueChenLi-lab/linux-thread-mechanism-lab)** — POSIX threads, synchronization, contention, and tracing.
 - **[Social Network Analysis](https://github.com/YueChenLi-lab/SocilaNetwork)** — Java graph algorithms and browser-based relationship visualization.
 - **[Linux 0.11 Scheduling Lab](https://github.com/YueChenLi-lab/linux011-process-scheduling-lab)** — operating-system process scheduling and tracing exercises.
-- **[MinOS](https://github.com/YueChenLi-lab/MinOS)** — a source backup for ongoing operating-system exploration; not a finished OS release.
+
+## 📖 Open-Source Projects I'm Exploring
+
+I also fork and study other developers' work to learn from their architecture and implementation. **The following are learning references and interests, not my original projects or representative work:**
+
+- **[LangGraph](https://github.com/langchain-ai/langgraph)** — the original stateful-agent framework by **LangChain**. I maintain a [personal fork](https://github.com/YueChenLi-lab/langgraph) to read the source and study execution, persistence, routing, and recovery.
+- **[arxiv_fetcher](https://github.com/AusertDream/arxiv_fetcher)** — an AI-paper retrieval project by **AusertDream**. My [fork](https://github.com/YueChenLi-lab/arxiv_fetcher) is a reference for exploring ingestion pipelines, embeddings, and semantic search.
+- **[MinOS](https://github.com/Pass-Traveller/MinOS)** — an operating-system project by **Pass-Traveller**. My [fork](https://github.com/YueChenLi-lab/MinOS) is for source study and experimentation.
 
 ## 🔬 What I'm Learning & Researching
 
-**Stateful and reliable agents.** I'm studying agent execution models, graph-based orchestration, state updates, persistence, error handling, retrieval, and the boundary between LLM-generated suggestions and authorized actions. I also read frameworks such as [LangGraph](https://github.com/langchain-ai/langgraph) to understand their engineering choices rather than treating a framework fork as my own original implementation.
+**Stateful and reliable agents.** I'm studying agent execution models, graph-based orchestration, state updates, persistence, error handling, retrieval, and the boundary between LLM-generated suggestions and authorized actions. I read frameworks such as [LangGraph](https://github.com/langchain-ai/langgraph) to understand engineering trade-offs, while keeping forked source-study separate from my own project portfolio.
 
 **Energy and embodied applications.** I'm interested in what it takes to add natural-language interaction and domain intelligence to mature engineering systems **without replacing their existing control, safety, or verification layers**.
 
